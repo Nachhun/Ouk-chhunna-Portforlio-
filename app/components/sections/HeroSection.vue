@@ -93,22 +93,38 @@
         <span
           class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-ink text-white shadow-xs hover:scale-102 transition-transform cursor-default"
         >
-          <span class="text-[11px]">⚡</span> Full-Stack Vue & Nuxt
+          <svg class="w-3.5 h-3.5 text-white shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          Full-Stack Vue & Nuxt
         </span>
         <span
           class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-white border border-border text-ink hover:border-ink/40 transition-colors shadow-xs cursor-default"
         >
-          <span class="text-[11px]">🏢</span> Enterprise SFA / RTM / FMCG
+          <svg class="w-3.5 h-3.5 text-ink-secondary shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="20" height="14" rx="2"></rect>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          </svg>
+          Enterprise SFA / RTM / FMCG
         </span>
         <span
           class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-white border border-border text-ink hover:border-ink/40 transition-colors shadow-xs cursor-default"
         >
-          <span class="text-[11px]">🗺️</span> Dynamic GIS & PWA Routing
+          <svg class="w-3.5 h-3.5 text-ink-secondary shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon>
+            <line x1="9" y1="3" x2="9" y2="18"></line>
+            <line x1="15" y1="6" x2="15" y2="21"></line>
+          </svg>
+          Dynamic GIS & PWA Routing
         </span>
         <span
           class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-full bg-white border border-border text-ink hover:border-ink/40 transition-colors shadow-xs cursor-default"
         >
-          <span class="text-[11px]">🤖</span> AI Workflows & Automation
+          <svg class="w-3.5 h-3.5 text-ink-secondary shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"></path>
+          </svg>
+          AI Workflows & Automation
         </span>
       </div>
 
