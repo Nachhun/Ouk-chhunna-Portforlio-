@@ -34,33 +34,41 @@
         </li>
       </ul>
 
-      <!-- Mobile actions (Quick Contact + Animated Hamburger) -->
-      <div class="md:hidden flex items-center gap-3">
+      <!-- Mobile actions (Quick Contact + Profile Avatar Menu) -->
+      <div class="md:hidden flex items-center gap-2.5">
         <a
           href="mailto:oukchhunna@gmail.com"
-          class="inline-flex items-center text-xs font-display font-800 tracking-wider uppercase bg-ink text-white px-3.5 py-1.5 rounded-full"
+          class="inline-flex items-center text-xs font-display font-800 tracking-wider uppercase bg-ink text-white px-3.5 py-1.5 rounded-full shadow-xs active:scale-95 transition-all"
         >
           Contact
         </a>
 
         <button
           id="mobile-menu-btn"
-          class="flex flex-col justify-center items-center w-9 h-9 rounded-full bg-black/5 hover:bg-black/10 transition-colors p-1"
+          class="relative flex items-center justify-center p-0.5 rounded-full focus:outline-none active:scale-95 transition-transform"
           :aria-label="mobileOpen ? 'Close menu' : 'Open menu'"
           @click="mobileOpen = !mobileOpen"
         >
-          <span
-            class="block w-4.5 h-[1.5px] bg-ink transition-all duration-300 origin-center"
-            :class="mobileOpen ? 'rotate-45 translate-y-[3.5px]' : '-translate-y-1'"
-          />
-          <span
-            class="block w-4.5 h-[1.5px] bg-ink transition-all duration-300"
-            :class="mobileOpen ? 'opacity-0' : ''"
-          />
-          <span
-            class="block w-4.5 h-[1.5px] bg-ink transition-all duration-300 origin-center"
-            :class="mobileOpen ? '-rotate-45 -translate-y-[3.5px]' : 'translate-y-1'"
-          />
+          <!-- Profile Avatar Image -->
+          <div class="w-9 h-9 rounded-full overflow-hidden border border-ink/20 shadow-xs bg-ink/5">
+            <img
+              src="/images/profile.jpg"
+              alt="Ouk Chhunna"
+              class="w-full h-full object-cover object-top"
+            />
+          </div>
+          <!-- Menu Toggle Badge Indicator -->
+          <span class="absolute -bottom-0.5 -right-0.5 w-4 h-4 rounded-full bg-ink text-white flex items-center justify-center shadow-xs border border-white">
+            <svg v-if="!mobileOpen" class="w-2.5 h-2.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="4" x2="20" y1="6" y2="6"></line>
+              <line x1="4" x2="20" y1="12" y2="12"></line>
+              <line x1="4" x2="20" y1="18" y2="18"></line>
+            </svg>
+            <svg v-else class="w-2.5 h-2.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </span>
         </button>
       </div>
     </nav>
@@ -74,22 +82,34 @@
         >
           <!-- Drawer Header -->
           <div class="flex items-center justify-between border-b border-border/80 pb-4">
-            <div>
-              <p class="font-display font-800 text-lg uppercase tracking-wider text-ink">
-                Ouk Chhunna
-              </p>
-              <div class="flex items-center gap-2 mt-0.5">
-                <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                <span class="text-[11px] font-medium text-ink-secondary">Available for hire</span>
+            <div class="flex items-center gap-3">
+              <div class="w-11 h-11 rounded-full overflow-hidden border border-ink/15 shadow-xs shrink-0">
+                <img
+                  src="/images/profile.jpg"
+                  alt="Ouk Chhunna"
+                  class="w-full h-full object-cover object-top"
+                />
+              </div>
+              <div>
+                <p class="font-display font-800 text-lg uppercase tracking-wider text-ink">
+                  Ouk Chhunna
+                </p>
+                <div class="flex items-center gap-2 mt-0.5">
+                  <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                  <span class="text-[11px] font-medium text-ink-secondary">Available for hire</span>
+                </div>
               </div>
             </div>
 
             <button
-              class="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center text-ink text-lg font-bold"
+              class="w-10 h-10 rounded-full bg-black/5 hover:bg-black/10 flex items-center justify-center text-ink transition-colors"
               aria-label="Close menu"
               @click="mobileOpen = false"
             >
-              ✕
+              <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
             </button>
           </div>
 
