@@ -1,0 +1,505 @@
+# OUK CHHUNNA
+
+### Full-Stack Software Developer | AI & Data Analytics | Digital Content & AI Creative
+
+---
+
+## PROFESSIONAL PROFILE
+
+Multidisciplinary technology and digital professional with experience across **full-stack software development, enterprise business systems, AI-assisted data analytics, digital content production, and AI-powered creative content creation**.
+
+Experienced in independently developing and maintaining production-ready **Web Applications, Progressive Web Apps (PWA), REST APIs, databases, GIS/location-based systems, dashboards, and business automation platforms**.
+
+Strong experience delivering digital solutions for **Sales Force Automation (SFA), Route-to-Market (RTM), General Trade (GT), Direct Sales, Retail Store Census, POSM, Logistics, Delivery Management, and B2B E-Commerce**.
+
+Extensively use **AI across software development, data analysis, business operations, and creative production** to accelerate work, automate repetitive tasks, reduce manual workload and resource requirements, and improve overall productivity.
+
+Also experienced in **digital content strategy, content creator management, photography, video production, graphic design, motion graphics, social-media content, promotional materials, and AI-generated marketing content**.
+
+---
+
+# THREE CORE PROFESSIONAL AREAS
+
+## 01 — SOFTWARE DEVELOPMENT & SOLUTIONS ARCHITECTURE
+
+* Use **AI extensively throughout software development** for coding, debugging, system analysis, documentation, problem-solving, data processing, and repetitive development tasks.
+
+* Lead **Full-Stack Software Development** and end-to-end enterprise system development, from business requirements and system architecture through development, testing, deployment, maintenance, and continuous improvement.
+
+* Design, develop, deploy, and maintain **enterprise Web Applications, Progressive Web Apps (PWA), REST APIs, databases, GIS solutions, and business automation systems**.
+
+* Analyze business requirements, operational processes, and user needs and translate them into **practical software solutions, digital workflows, and system functionality**.
+
+* Develop business platforms supporting **Sales Force Automation (SFA), Route-to-Market (RTM), General Trade (GT), Direct Sales, Retail Store Census, Point-of-Sale Materials (POSM), Logistics, Delivery Management, and Business-to-Business (B2B) E-Commerce**.
+
+* Build responsive and mobile-friendly **Web Applications and PWAs** for field users without requiring separate native mobile applications.
+
+* Develop modern frontend applications using **Nuxt 3/4, Vue.js, TypeScript, Vite, Tailwind CSS, Composition API, and state management**.
+
+* Develop backend services and scalable **RESTful APIs using Laravel and PHP**, including authentication, business logic, validation, integrations, and API communication.
+
+* Design and manage **MySQL relational databases**, including database structures, relationships, business rules, queries, data validation, and spatial data.
+
+* Develop **GIS and location-based solutions** using Leaflet, Mapbox, OSRM, GPS, geolocation, geofencing, interactive maps, and route planning.
+
+* Implement GPS and location-aware functionality for **field-sales tracking, store visits, route execution, location verification, and real-time monitoring**.
+
+* Develop interactive mapping features including **store mapping, territory visualization, route planning, waypoint management, delivery routes, location tracking, and field activity visualization**.
+
+* Build business workflows for **sales orders, customer management, inventory, delivery planning, stock monitoring, store visits, field surveys, POSM tracking, user management, and reporting**.
+
+* Develop **CSV import/export, bulk data processing, Excel reporting, data validation, data transformation, and large retail/store datasets**.
+
+* Develop dashboards and reporting for **sales performance, field activities, productive/unproductive calls, hit rates, drop size, territory performance, inventory status, and operational monitoring**.
+
+* Implement **role-based access control, authentication, authorization, session management, data validation, and secure API communication**.
+
+* Develop integrations between **frontend applications, backend APIs, databases, GIS services, reporting platforms, and business systems**.
+
+* Design systems with consideration for **performance, scalability, maintainability, usability, data accuracy, and operational reliability**.
+
+* Troubleshoot and resolve **production issues, application bugs, API problems, database issues, deployment problems, and business-process errors**.
+
+* Manage **Git-based development workflows, version control, production deployments, CI/CD pipelines, cPanel hosting, Apache configuration, and system maintenance**.
+
+* Take ownership of the complete software lifecycle from **requirements and architecture to development, testing, deployment, monitoring, troubleshooting, and improvement**.
+
+* Leverage AI as a **productivity multiplier** to reduce development time, automate repetitive work, reduce manual workload and human resource requirements, and increase development efficiency.
+
+---
+
+# SELECTED PRODUCTION PROJECTS
+
+## Direct Sales & Dynamic Delivery Routing Platform
+
+**Role:** Full-Stack Developer / System Architect
+**Platform:** Web Application / PWA
+**Technology:** Nuxt 3, Vue.js, Laravel REST API, MySQL, Leaflet GIS, OSRM, cPanel CI/CD
+
+* Developed an end-to-end **Direct Sales and Delivery Management Web/PWA Platform**.
+* Built workflows for **order management, customer management, delivery planning, inventory allocation, delivery assignment, and delivery tracking**.
+* Developed interactive GIS route planning with **custom route drawing, waypoint management, route visualization, route editing, and multi-stop delivery planning**.
+* Implemented delivery-plan workflows for **assignment, unassignment, rescheduling, and closed-shop deliveries**.
+* Developed inventory aggregation based on delivery plans to support **warehouse preparation and delivery operations**.
+* Created dynamic **warehouse pick-list generation and Excel export**.
+* Implemented location-based functionality using **GIS mapping and road-routing services**.
+* Maintained and enhanced the production platform with **1,499 Git production commits**.
+
+## GT Field Sales & Inventory Management Platform
+
+**Role:** Full-Stack Developer / System Architect
+**Platform:** Web Application + PWA
+**Technology:** Nuxt 3/4, Vue 3, TypeScript, Tailwind CSS, Laravel, PHP, MySQL, GPS, GIS
+
+* Developed a **General Trade Sales Force Automation Web/PWA Platform**.
+* Built workflows covering **store visits, sales orders, inventory management, route execution, customer/store information, and sales-representative tracking**.
+* Implemented GPS and geolocation functionality for **routes, store arrival, visit duration, and field activities**.
+* Developed **stock counting, stock aging, expiry monitoring, damaged/returned SKU management, and reorder management**.
+* Built **real-time tracking maps and visit timelines**.
+* Developed store-universe management and **bulk CSV import** for large retail datasets.
+* Managed geographical structures including **Provinces, Khans, Sangkats, and ASM territories**.
+* Designed the solution as a responsive **Web/PWA platform without a separate native mobile application**.
+* Maintained the production system with **1,088 Git production commits**.
+
+## D-Day Field Sales & Executive Analytics Platform
+
+**Role:** Full-Stack Developer / System Architect
+**Platform:** Web Application / PWA
+**Technology:** Nuxt 3/4, Laravel, Python Data Analytics, cPanel CI/CD
+
+* Developed a **D-Day Field Sales Web/PWA Platform** for intensive field-sales campaigns.
+* Built functionality for **retail-store mapping, field information collection, order capture, and sales activity monitoring**.
+* Developed calculations for **productive calls, unproductive calls, hit rates, and drop-size performance**.
+* Created **sales performance dashboards and territory leaderboards**.
+* Developed management reporting for **individual, team, and territory performance**.
+* Integrated field data with analytical workflows for **sales performance evaluation and management decision-making**.
+* Implemented multi-target deployment for the **field application and executive analytics dashboard**.
+* Maintained the project with **876 Git production commits**.
+
+## Retail Store Census & FMCG Audit System
+
+**Role:** Full-Stack Developer / System Architect
+**Platform:** Web Application / PWA
+**Technology:** Nuxt 3, Laravel, MySQL, Leaflet, Mapbox, GIS
+
+* Developed a **Retail Store Census and FMCG Audit Web/PWA Platform** to replace manual store enumeration.
+* Built GIS functionality for mapping **audited stores and potential/unvisited store locations**.
+* Developed field forms for **GPS coordinates, storefront photos, shelf facings, price tiers, and competitor SKU information**.
+* Implemented retail mapping across **Phnom Penh and provincial areas**.
+* Created supervisor **Quality Assurance and back-check workflows**.
+* Implemented **approve, reject, and re-enumeration** workflows.
+* Designed the system for large-scale retail data collection and structured field reporting.
+* Maintained the project with **277 Git production commits**.
+
+## POSM & Merchandising Hanger Tracking System
+
+**Role:** Full-Stack Developer
+**Platform:** Web Application / PWA
+**Technology:** Nuxt 3, Laravel REST API, MySQL, cPanel CI/CD
+
+* Developed a **POSM and merchandising asset tracking Web/PWA platform**.
+* Built workflows for **POSM registration, allocation, installation verification, and asset tracking**.
+* Implemented **photo upload and image-based verification**.
+* Developed asset lifecycle management covering **allocation, damaged items, retired assets, and reconciliation**.
+* Maintained the production system with **80 Git production commits**.
+
+## Aprati Foods Corporate Brand Portal
+
+**Role:** Full-Stack Developer / Web Developer
+**Platform:** Web Application
+**Technology:** Vue.js, Vite, Laravel API, Apache
+
+* Developed the corporate **brand and product Web Portal**.
+* Built content-management functionality for **product information, brand content, company announcements, and digital assets**.
+* Implemented optimized product-image handling including **storage, format conversion, normalization, and caching**.
+* Developed the frontend using **Vue.js/Vite** and integrated it with Laravel API.
+* Maintained the project with **79 Git production commits**.
+
+## B2B E-Order Platform
+
+**Role:** Full-Stack Developer
+**Platform:** Web Application
+**Technology:** Nuxt/Vue, Laravel REST API, MySQL, cPanel Git Pipeline
+
+* Developed a **B2B wholesale E-Commerce Web Platform**.
+* Built secure **customer authentication, role-based access, and session management**.
+* Implemented **tiered pricing and price-book management**.
+* Enabled authorized customers to place **B2B wholesale orders online without manual sales-representative intervention**.
+* Maintained and improved the production platform.
+
+---
+
+# 02 — AI, DATA ANALYTICS & INTELLIGENT AUTOMATION
+
+* Use **Artificial Intelligence extensively across software development, data analytics, business analysis, and operational workflows**.
+* Integrate AI into daily development workflows to **save time, accelerate development, automate repetitive tasks, and reduce manual workload**.
+* Use AI for **coding assistance, debugging, code analysis, system analysis, documentation, problem-solving, and development planning**.
+* Use AI to support **SQL queries, database analysis, data transformation, data processing, reporting logic, and analytical workflows**.
+* Analyze **sales, customer, inventory, field-sales, retail, and operational data** using AI-assisted workflows.
+* Use AI to identify **trends, patterns, anomalies, performance gaps, and potential business opportunities**.
+* Apply AI-assisted analysis to **sales performance reviews, KPI analysis, territory analysis, and management reporting**.
+* Use AI to **clean, organize, summarize, interpret, compare, and analyze structured data** from Excel, CSV files, databases, and business systems.
+* Combine AI with **Python Data Analytics, databases, dashboards, and business systems**.
+* Support **data visualization, reporting, forecasting, performance comparison, and data-driven decision-making**.
+* Automate repetitive analytical and operational tasks to reduce **manual work, processing time, and human resource requirements**.
+* Use AI as a **productivity multiplier across projects**, allowing more work to be completed faster while maintaining practical technical and business quality.
+* Combine **AI-assisted workflows with human technical judgment** to validate outputs and ensure business relevance, accuracy, and usability.
+
+### AI-Assisted Business Analytics Applications
+
+**Sales Analytics**
+
+* Sales performance analysis
+* KPI analysis
+* Product and customer performance
+* Territory performance
+* Sales-representative performance
+* Productive/unproductive call analysis
+* Hit-rate analysis
+* Drop-size analysis
+
+**Operational Analytics**
+
+* Inventory analysis
+* Stock-aging analysis
+* Retail/store data analysis
+* Field activity analysis
+* Customer data analysis
+* Operational performance monitoring
+* Anomaly and performance-gap identification
+
+**Data Processing**
+
+* Excel and CSV analysis with AI  
+* Data cleaning and organization with AI Support
+* Data transformation with AI Support
+* Data summarization with AI Support
+* Data comparison with AI Support
+* SQL assistance with AI Support
+* Reporting preparation with AI Support
+* Dashboard data preparation with AI Support
+
+---
+
+# 03 — DIGITAL CONTENT, MEDIA & AI CONTENT CREATION
+
+## Digital Content & Media Production
+
+* Manage and coordinate **content creators and digital media activities**.
+* Manage **content creator workflows**, production schedules, creative resources, and content delivery.
+* Plan and manage **social media content calendars and publishing schedules**.
+* Develop **creative concepts, campaign ideas, and content strategies** for digital platforms.
+* Plan content from **concept → script → production → editing → review → publishing → performance feedback**.
+* Manage **photo and video production**, including shooting, editing, post-production, and final delivery.
+* Create **social media posts, promotional posters, product visuals, packaging materials, and marketing materials**.
+* Create **video bumpers, intro/outro animations, branded motion graphics, and promotional visual content**.
+* Support **product promotion, campaign content, social-media communication, and digital marketing activities**.
+* Maintain **visual consistency and brand identity** across digital and marketing channels.
+* Manage **creative assets, B-roll, audio, lower thirds, intro/outro elements, caption presets, templates, and production resources**.
+* Develop structured **content production workflows** to improve consistency, efficiency, and production speed.
+* Review content performance and use feedback to improve future **creative direction and production quality**.
+* Coordinate content production schedules and resources to support consistent publishing.
+
+## AI Content Creation
+
+* Create **AI-generated video content** for product promotion, social media, and digital marketing campaigns.
+* Use AI tools to develop **product videos, promotional visuals, creative concepts, storyboards, and visual directions**.
+* Create **AI-generated posters, product visuals, advertising materials, and social-media content**.
+* Generate creative visual assets that can be combined with **real photography, video footage, graphic design, compositing, and motion graphics**.
+* Develop AI-assisted creative content for **product launches, social-media campaigns, promotional materials, and digital marketing**.
+* Use AI to rapidly generate and test **different creative concepts, visual styles, product presentations, and promotional ideas**.
+* Combine AI-generated content with traditional production workflows to improve **creative flexibility and visual quality**.
+* Use AI to increase **production speed, content variation, creative output, and overall efficiency**.
+* Apply AI throughout the creative workflow to reduce repetitive production tasks and produce more content with **less manual effort and fewer resource requirements**.
+* Use AI as a creative productivity tool while applying human judgment for **brand consistency, storytelling, visual quality, product accuracy, and final content decisions**.
+
+---
+
+# CORE TECHNICAL SKILLS
+
+### Frontend Development
+
+Nuxt 3/4, Vue.js, TypeScript, Vite, Tailwind CSS, Composition API, State Management, Responsive UI Development
+
+### Web Application & PWA
+
+Progressive Web Apps (PWA), Responsive Web Applications, Mobile Web, GPS-enabled Web Applications, Offline-capable Web Features
+
+### Backend Development
+
+Laravel, PHP, RESTful APIs, Sanctum Authentication, Eloquent ORM, Business Logic, API Integration
+
+### Database & Data
+
+MySQL, Relational Database Design, SQL, Spatial Queries, Data Validation, LocalStorage, IndexedDB, CSV Processing, Excel Reporting
+
+### GIS & Location Technology
+
+Leaflet, Mapbox, OSRM, GPS, Geolocation, Geofencing, Route Planning, Interactive Maps, Location Tracking
+
+### DevOps & Deployment
+
+Git, cPanel, Apache, PHP-FPM, CI/CD, Production Deployment, Version Control, System Maintenance, Troubleshooting
+
+### Business Systems
+
+Sales Force Automation, Route-to-Market Management, General Trade Sales Management, Direct Sales Management, Retail Store Census & Audit, POSM Tracking, Logistics & Delivery Management, B2B E-Commerce
+
+### Data Analytics
+
+Python Data Analytics, AI-Assisted Data Analysis, Sales Analytics, KPI Analysis, Territory Analysis, Inventory Analysis, Reporting, Dashboard Data Preparation
+
+### Digital Media
+
+Content Creator Management, Content Calendars, Creative Strategy, Photography, Videography, Video Editing, Graphic Design, Motion Graphics, Social Media Content, Promotional Materials, Brand Visuals
+
+### AI Creative
+
+AI-Generated Videos, AI Product Visuals, AI Posters, AI Social Media Content, AI Creative Concepts, AI-Assisted Marketing Content, AI + Photography, AI + Video Editing, AI + Graphic Design, AI + Motion Graphics
+
+---
+
+# PRODUCTION ACHIEVEMENTS
+
+* **7+ enterprise production platforms** developed and deployed.
+* Full-stack ownership from **requirements → architecture → development → testing → deployment → maintenance**.
+* Extensive experience with **Web Applications and Progressive Web Apps (PWA)** rather than native mobile application development.
+* Developed production systems incorporating **GIS, GPS, geolocation, route planning, real-time tracking, dashboards, and business automation**.
+* Applied **AI-assisted business data analysis and reporting**.
+* Applied **AI-powered digital content and creative production**.
+* Experience combining **technology, business operations, data,  and digital media** into practical solutions.
+* Managed production deployment and maintenance using **Git-based CI/CD, cPanel, Apache, and API-driven architecture**.
+* Used AI extensively as a productivity multiplier to **save time, reduce repetitive work, reduce manual resource requirements, and increase overall project output**.
+
+
+# OUK CHHUNNA
+
+### Full-Stack Software Developer | Business Systems | AI & Data Analytics | Digital Content & AI Creative
+
+## PROFESSIONAL PROFILE
+
+Multidisciplinary technology and digital professional with experience across **full-stack software development, enterprise business systems, AI-assisted data analytics, digital content production, and AI-powered creative content creation**.
+
+Experienced in developing and maintaining production-ready **Web Applications, Progressive Web Apps (PWA), REST APIs, databases, GIS/location-based systems, dashboards, and business automation platforms**.
+
+Strong experience delivering digital solutions for **Sales Force Automation (SFA), Route-to-Market (RTM), General Trade (GT), Direct Sales, Retail Store Census, POSM, Logistics, Delivery Management, and B2B E-Commerce**.
+
+Extensively use **AI across software development, data analysis, business operations, and creative production** to accelerate work, automate repetitive tasks, reduce manual workload and resource requirements, and improve productivity.
+
+---
+
+# PROFESSIONAL EXPERIENCE
+
+## APRATI FOODS CAMBODIA
+
+### Digital Content & Web (Business Systems) Executive
+
+**January 1, 2026 – Present**
+
+Responsible for the development and support of business systems while also contributing to digital content, AI-assisted production, data analytics, and digital marketing activities.
+
+### Software Development & Business Systems
+
+* Develop and maintain enterprise **Web Applications and Progressive Web Apps (PWA)** for sales, field operations, retail census, logistics, POSM, and B2B E-Commerce.
+* Lead end-to-end **Full-Stack Development**, including system architecture, frontend, backend APIs, database design, testing, deployment, troubleshooting, and maintenance.
+* Develop solutions using **Nuxt, Vue.js, TypeScript, Laravel, PHP, MySQL, REST APIs, GIS, GPS, and geolocation technologies**.
+* Build business workflows for **sales orders, customer management, inventory, delivery planning, store visits, field surveys, POSM tracking, and reporting**.
+* Develop GIS/location-based functionality for **route planning, store mapping, field-sales tracking, geofencing, and real-time monitoring**.
+* Support production systems, resolve bugs, improve existing functionality, and respond to business-user requirements.
+* Manage Git-based development, deployment, cPanel hosting, API integration, and production system maintenance.
+
+### AI & Data Analytics
+
+* Use **AI extensively throughout software development and data-analysis workflows** to save time, accelerate development, automate repetitive tasks, and reduce manual workload.
+* Use AI for **coding, debugging, system analysis, SQL assistance, data processing, documentation, problem-solving, and development planning**.
+* Analyze **sales, customer, inventory, retail, field-sales, and operational data** using AI-assisted workflows.
+* Use AI to identify **trends, patterns, anomalies, performance gaps, and potential business opportunities**.
+* Support **sales performance reviews, KPI analysis, territory analysis, reporting, and management decision-making**.
+* Combine AI with **Python, SQL, Excel/CSV data, databases, dashboards, and business systems**.
+
+### Digital Content & AI Content Creation
+
+* Plan and produce **digital content, social-media content, promotional materials, photography, video, graphic design, and motion graphics**.
+* Manage content production workflows including **creative concepts, planning, production, editing, review, publishing, and performance improvement**.
+* Create and support **AI-generated product videos, product visuals, posters, promotional content, and social-media materials**.
+* Combine AI-generated assets with **photography, video editing, graphic design, compositing, and motion graphics**.
+* Use AI to increase **creative output, production speed, content variation, and overall efficiency**.
+* Apply human judgment to maintain **brand consistency, storytelling, product accuracy, visual quality, and final creative decisions**.
+
+### Selected Production Systems
+
+* **Direct Sales & Dynamic Delivery Routing Platform** — Web/PWA
+* **GT Field Sales & Inventory Management Platform** — Web/PWA
+* **D-Day Field Sales & Executive Analytics Platform** — Web/PWA
+* **Retail Store Census & FMCG Audit System** — Web/PWA
+* **POSM & Merchandising Hanger Tracking System** — Web/PWA
+* **Aprati Foods Corporate Brand Portal** — Web Application
+* **B2B Wholesale E-Order Platform** — Web Application
+
+**Production achievement:** 7+ enterprise platforms deployed, with **3,900+ Git production commits** across major systems.
+
+---
+
+### Digital Content & AI Content Creation Intern
+
+**July 2025 – November 2025**
+
+During the internship, worked across **AI Content Creation, digital media, Web Development, and business-system projects**.
+
+### AI Content Creation & Digital Media
+
+* Created **AI-generated product promotion videos, product visuals, posters, and social-media content**.
+* Developed creative concepts, storyboards, visual directions, and promotional ideas using AI-assisted workflows.
+* Combined AI-generated assets with **photography, video editing, graphic design, and motion graphics**.
+* Supported product launches, social-media campaigns, and digital marketing activities.
+* Used AI to test multiple **creative concepts, visual styles, product presentations, and promotional ideas**.
+* Applied AI to reduce repetitive production work, improve production speed, and increase creative output.
+* Used human judgment to ensure **brand consistency, product accuracy, visual quality, and appropriate final content**.
+
+### Web & Business-System Development
+
+During the internship, also contributed to the development of:
+
+**B2B E-Commerce Platform**
+
+* Developed a Web-based **E-Commerce / B2B ordering platform** for business customers.
+* Supported functionality related to customer access, product ordering, pricing, and online business transactions.
+
+**POSM Hanger Visibility & Tracking System**
+
+* Developed a **POSM Hanger Visibility and Tracking Web/PWA system**.
+* Supported tracking of POSM assets, placement, verification, and asset information.
+* Implemented image/photo-based verification and structured asset management.
+
+## This internship provided practical experience combining **AI Content Creation, Digital Media, Web Development, and Business Systems** before progressing into a full-time technology and digital role at Aprati Foods Cambodia.
+
+# THREE CORE PROFESSIONAL AREAS
+
+## 01 — SOFTWARE DEVELOPMENT & BUSINESS SYSTEMS
+
+* Full-Stack Software Development
+* Web Applications & Progressive Web Apps (PWA)
+* Business Systems & Enterprise Applications
+* REST API Development
+* Nuxt / Vue.js / TypeScript
+* Laravel / PHP
+* MySQL / SQL
+* GIS / GPS / Geolocation
+* Route Planning & Real-Time Tracking
+* Sales Force Automation (SFA)
+* General Trade (GT)
+* Direct Sales
+* Retail Store Census
+* POSM Tracking
+* Logistics & Delivery Management
+* B2B E-Commerce
+* Git / CI/CD / cPanel
+* Production Deployment & System Maintenance
+
+## 02 — AI, DATA ANALYTICS & INTELLIGENT AUTOMATION
+
+* AI-Assisted Software Development
+* AI-Assisted Data Analysis
+* Sales & KPI Analytics
+* Customer & Product Analysis
+* Inventory & Stock Analysis
+* Territory & Sales-Representative Analysis
+* Excel / CSV Data Processing
+* SQL & Database Analysis
+* Python Data Analytics
+* Dashboard Data Preparation
+* Trend & Pattern Identification
+* Anomaly & Performance-Gap Analysis
+* Workflow Automation
+* AI-Assisted Reporting
+* AI Productivity & Process Optimization
+
+## 03 — DIGITAL CONTENT, MEDIA & AI CONTENT CREATION
+
+* Digital Content Strategy
+* Content Creator Management
+* Social Media Content Calendars
+* Creative Concepts & Campaign Ideas
+* Photography
+* Videography
+* Video Editing & Post-Production
+* Graphic Design
+* Motion Graphics
+* Promotional Posters
+* Product Visuals
+* Marketing Materials
+* Brand Visuals & Consistency
+* AI-Generated Product Videos
+* AI Product Visuals
+* AI-Generated Posters
+* AI Social Media Content
+* AI Creative Concepts & Storyboards
+* AI-Assisted Marketing Content
+* AI + Photography
+* AI + Video Editing
+* AI + Graphic Design
+* AI + Motion Graphics
+
+---
+
+# EDUCATION
+
+### Bachelor of Information  Technology & engineering 
+
+**Royal University of phnom penh**
+2023-**2026 **
+
+**Certification / Award**
+
+* team leader of SDA program in checkin Me  lead for pruduct content and grapigh design with team for checkin me 
+
+---
+
+# KEY ACHIEVEMENTS
+
+* Developed and deployed **7+ enterprise production platforms**.
+* Full ownership of software lifecycle from **requirements → architecture → development → testing → deployment → maintenance**.
+* Strong experience with **Web Applications and Progressive Web Apps (PWA)** rather than native mobile application development.
+* Built systems incorporating **GIS, GPS, geolocation, route planning, real-time tracking, dashboards, and business automation**.
+* Combined **software engineering, AI data analytics, business operations, and digital media** in practical production environments.
+* Used AI extensively as a **productivity multiplier** to save time, reduce repetitive work, reduce manual resource requirements, and increase overall project output.
