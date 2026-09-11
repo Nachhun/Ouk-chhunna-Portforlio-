@@ -13,52 +13,9 @@
         </p>
       </FadeUp>
 
-      <!-- Masonry grid of creative samples -->
+      <!-- Capabilities Breakdown -->
       <FadeUp :delay="2">
-        <div class="masonry-grid">
-          <div
-            v-for="(item, index) in creativeItems"
-            :key="index"
-            class="masonry-item group relative overflow-hidden cursor-pointer"
-          >
-            <div class="relative overflow-hidden">
-              <img
-                v-if="item.useRealPhoto"
-                :src="item.src"
-                :alt="item.alt"
-                class="w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                :style="{ height: item.height }"
-                loading="lazy"
-              />
-              <div
-                v-else
-                class="w-full flex items-center justify-center bg-gray-50 border border-border transition-all duration-500 group-hover:bg-gray-100"
-                :style="{ height: item.height, background: item.bg || '#F1F5F9' }"
-              >
-                <div class="text-center px-6">
-                  <p class="font-display font-700 text-3xl mb-2" :style="{ color: item.iconColor || '#D1D5DB' }">
-                    {{ item.icon }}
-                  </p>
-                  <p class="font-body text-xs tracking-[0.1em] uppercase text-ink-muted">
-                    {{ item.type }}
-                  </p>
-                </div>
-              </div>
-              <!-- Hover overlay -->
-              <div class="absolute inset-0 bg-ink/0 group-hover:bg-ink/40 transition-all duration-500 flex items-end p-5 opacity-0 group-hover:opacity-100">
-                <div>
-                  <p class="font-display font-600 text-sm text-white mb-1">{{ item.title }}</p>
-                  <p class="font-body text-xs text-white/70">{{ item.type }}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </FadeUp>
-
-      <!-- Exact Verbatim Breakdowns from Portfolio.txt lines 224-255 -->
-      <FadeUp :delay="3">
-        <div class="mt-20 pt-16 border-t border-border">
+        <div>
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
             <!-- Digital Content & Media Production (14 Bullets) -->
             <div class="space-y-5">
@@ -119,77 +76,7 @@
 </template>
 
 <script setup lang="ts">
-const creativeItems = [
-  {
-    title: 'Product Photography',
-    type: 'Photography · Commercial',
-    useRealPhoto: true,
-    src: '/images/creative1.jpg',
-    alt: 'Product photography by Ouk Chhunna',
-    height: '320px',
-  },
-  {
-    title: 'Brand Visual Identity',
-    type: 'Graphic Design · Branding',
-    useRealPhoto: false,
-    height: '240px',
-    bg: '#F8F5F0',
-    icon: '◈',
-    iconColor: '#C4A882',
-  },
-  {
-    title: 'Portrait & Event',
-    type: 'Photography · Portrait',
-    useRealPhoto: true,
-    src: '/images/creative2.jpg',
-    alt: 'Portrait photography by Ouk Chhunna',
-    height: '400px',
-  },
-  {
-    title: 'AI-Generated Visuals',
-    type: 'AI Art · Midjourney & Stable Diffusion',
-    useRealPhoto: false,
-    height: '280px',
-    bg: '#F0F0F8',
-    icon: '✦',
-    iconColor: '#A0A0C0',
-  },
-  {
-    title: 'Motion Graphics',
-    type: 'Video · After Effects & Premiere',
-    useRealPhoto: false,
-    height: '220px',
-    bg: '#0A0A0A',
-    icon: '▶',
-    iconColor: '#666666',
-  },
-  {
-    title: 'Architecture & Environment',
-    type: 'Photography · Architecture',
-    useRealPhoto: true,
-    src: '/images/creative3.jpg',
-    alt: 'Architecture photography by Ouk Chhunna',
-    height: '350px',
-  },
-  {
-    title: 'Social Media Content',
-    type: 'Design · Content Calendars',
-    useRealPhoto: false,
-    height: '200px',
-    bg: '#FFF8F0',
-    icon: '◻',
-    iconColor: '#E0C090',
-  },
-  {
-    title: 'Video Production',
-    type: 'Video · Documentary & Commercial',
-    useRealPhoto: false,
-    height: '260px',
-    bg: '#F4F0F8',
-    icon: '⬡',
-    iconColor: '#B090D0',
-  },
-]
+
 
 // Exact 14 bullets from Portfolio.txt lines 228-241
 const mediaProductionPoints = [
