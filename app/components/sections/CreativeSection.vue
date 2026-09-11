@@ -8,66 +8,76 @@
         <h2 class="font-display font-700 text-4xl lg:text-5xl text-ink leading-tight tracking-tight mt-4 mb-6">
           Digital Creative
         </h2>
-        <p class="font-body text-sm text-ink-secondary leading-relaxed max-w-2xl mb-16">
+        <p class="font-body text-base sm:text-lg font-semibold text-ink/85 leading-relaxed max-w-3xl mb-12">
           Beyond software engineering — digital content strategy, creator management, photography, video production, graphic design, motion graphics, and AI-powered visual assets.
         </p>
       </FadeUp>
 
       <!-- Capabilities Breakdown -->
       <FadeUp :delay="2">
-        <div>
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-            <!-- Digital Content & Media Production (14 Bullets) -->
-            <div class="space-y-5">
-              <div class="flex items-center justify-between border-b border-border pb-3">
-                <div class="flex items-center gap-2.5">
-                  <span class="w-2 h-2 rounded-full bg-ink" />
-                  <h3 class="font-display font-700 text-xl text-ink">
-                    Digital Content & Media Production
-                  </h3>
-                </div>
-                <span class="font-body text-[11px] uppercase text-ink-muted border border-border px-2 py-0.5">14 Capabilities</span>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-10">
+          <!-- Digital Content & Media Production (14 Bullets) -->
+          <div class="bg-white border border-border/90 rounded-2xl p-7 sm:p-9 shadow-sm hover:shadow-md transition-all space-y-6">
+            <div class="flex items-center justify-between border-b border-border/80 pb-4">
+              <div class="flex items-center gap-3">
+                <span class="w-3 h-3 rounded-full bg-ink" />
+                <h3 class="font-display font-800 text-2xl sm:text-3xl text-ink tracking-tight">
+                  Digital Content & Media Production
+                </h3>
               </div>
-              <p class="font-body text-xs text-ink-secondary leading-relaxed">
-                Complete workflow management from <strong class="text-ink font-600">concept → script → production → editing → review → publishing → performance feedback</strong>.
-              </p>
-              <ul class="space-y-2.5">
-                <li
-                  v-for="(item, idx) in mediaProductionPoints"
-                  :key="idx"
-                  class="flex items-start gap-2.5 font-body text-xs text-ink-secondary leading-relaxed"
-                >
-                  <span class="w-1.5 h-1.5 rounded-full bg-border-strong shrink-0 mt-1.5" />
-                  <span>{{ item }}</span>
-                </li>
-              </ul>
+              <span class="font-body text-xs sm:text-sm font-700 uppercase tracking-wider text-ink bg-ink/5 border border-ink/10 px-3 py-1 rounded-full shrink-0">
+                14 Capabilities
+              </span>
             </div>
 
-            <!-- AI Content Creation (10 Bullets) -->
-            <div class="space-y-5">
-              <div class="flex items-center justify-between border-b border-border pb-3">
-                <div class="flex items-center gap-2.5">
-                  <span class="w-2 h-2 rounded-full bg-ink" />
-                  <h3 class="font-display font-700 text-xl text-ink">
-                    AI Content Creation
-                  </h3>
-                </div>
-                <span class="font-body text-[11px] uppercase text-ink-muted border border-border px-2 py-0.5">10 Capabilities</span>
+            <div class="p-4 rounded-xl bg-surface/80 border border-border">
+              <p class="font-body text-sm sm:text-base font-semibold text-ink leading-relaxed">
+                Complete workflow management from <span class="underline decoration-accent-terracotta/40 decoration-2 font-bold">concept → script → production → editing → review → publishing → performance feedback</span>.
+              </p>
+            </div>
+
+            <ul class="space-y-3.5">
+              <li
+                v-for="(item, idx) in mediaProductionPoints"
+                :key="idx"
+                class="flex items-start gap-3.5 p-2 rounded-lg hover:bg-cream/60 transition-colors"
+              >
+                <span class="w-2 h-2 rounded-full bg-ink shrink-0 mt-2" />
+                <span class="font-body text-[15px] sm:text-base font-medium text-ink leading-relaxed">{{ item }}</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- AI Content Creation (10 Bullets) -->
+          <div class="bg-white border border-border/90 rounded-2xl p-7 sm:p-9 shadow-sm hover:shadow-md transition-all space-y-6">
+            <div class="flex items-center justify-between border-b border-border/80 pb-4">
+              <div class="flex items-center gap-3">
+                <span class="w-3 h-3 rounded-full bg-ink" />
+                <h3 class="font-display font-800 text-2xl sm:text-3xl text-ink tracking-tight">
+                  AI Content Creation
+                </h3>
               </div>
-              <p class="font-body text-xs text-ink-secondary leading-relaxed">
+              <span class="font-body text-xs sm:text-sm font-700 uppercase tracking-wider text-ink bg-ink/5 border border-ink/10 px-3 py-1 rounded-full shrink-0">
+                10 Capabilities
+              </span>
+            </div>
+
+            <div class="p-4 rounded-xl bg-surface/80 border border-border">
+              <p class="font-body text-sm sm:text-base font-semibold text-ink leading-relaxed">
                 Harnessing AI to test visual directions and combine AI generation with traditional cinematography, editing, and design.
               </p>
-              <ul class="space-y-2.5">
-                <li
-                  v-for="(item, idx) in aiContentPoints"
-                  :key="idx"
-                  class="flex items-start gap-2.5 font-body text-xs text-ink-secondary leading-relaxed"
-                >
-                  <span class="w-1.5 h-1.5 rounded-full bg-border-strong shrink-0 mt-1.5" />
-                  <span>{{ item }}</span>
-                </li>
-              </ul>
             </div>
+
+            <ul class="space-y-3.5">
+              <li
+                v-for="(item, idx) in aiContentPoints"
+                :key="idx"
+                class="flex items-start gap-3.5 p-2 rounded-lg hover:bg-cream/60 transition-colors"
+              >
+                <span class="w-2 h-2 rounded-full bg-ink shrink-0 mt-2" />
+                <span class="font-body text-[15px] sm:text-base font-medium text-ink leading-relaxed">{{ item }}</span>
+              </li>
+            </ul>
           </div>
         </div>
       </FadeUp>

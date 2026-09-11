@@ -145,24 +145,24 @@
 
           <!-- Verbatim 5 paragraphs of Professional Profile from Portfolio.txt lines 8-18 -->
           <FadeUp :delay="2">
-            <div class="space-y-4 font-body text-sm text-ink-secondary leading-relaxed">
+            <div class="space-y-4 font-body text-[15px] sm:text-base text-ink/85 font-medium leading-relaxed">
               <p>
                 Multidisciplinary technology and digital professional with experience across
-                <strong class="text-ink font-600">full-stack software development, enterprise business systems, AI-assisted data analytics, digital content production, and AI-powered creative content creation</strong>.
+                <strong class="text-ink font-bold">full-stack software development, enterprise business systems, AI-assisted data analytics, digital content production, and AI-powered creative content creation</strong>.
               </p>
               <p>
                 Experienced in independently developing and maintaining production-ready
-                <strong class="text-ink font-600">Web Applications, Progressive Web Apps (PWA), REST APIs, databases, GIS/location-based systems, dashboards, and business automation platforms</strong>.
+                <strong class="text-ink font-bold">Web Applications, Progressive Web Apps (PWA), REST APIs, databases, GIS/location-based systems, dashboards, and business automation platforms</strong>.
               </p>
               <p>
                 Strong experience delivering digital solutions for
-                <strong class="text-ink font-600">Sales Force Automation (SFA), Route-to-Market (RTM), General Trade (GT), Direct Sales, Retail Store Census, POSM, Logistics, Delivery Management, and B2B E-Commerce</strong>.
+                <strong class="text-ink font-bold">Sales Force Automation (SFA), Route-to-Market (RTM), General Trade (GT), Direct Sales, Retail Store Census, POSM, Logistics, Delivery Management, and B2B E-Commerce</strong>.
               </p>
               <p>
-                Extensively use <strong class="text-ink font-600">AI across software development, data analysis, business operations, and creative production</strong> to accelerate work, automate repetitive tasks, reduce manual workload and resource requirements, and improve overall productivity.
+                Extensively use <strong class="text-ink font-bold">AI across software development, data analysis, business operations, and creative production</strong> to accelerate work, automate repetitive tasks, reduce manual workload and resource requirements, and improve overall productivity.
               </p>
               <p>
-                Also experienced in <strong class="text-ink font-600">digital content strategy, content creator management, photography, video production, graphic design, motion graphics, social-media content, promotional materials, and AI-generated marketing content</strong>.
+                Also experienced in <strong class="text-ink font-bold">digital content strategy, content creator management, photography, video production, graphic design, motion graphics, social-media content, promotional materials, and AI-generated marketing content</strong>.
               </p>
             </div>
           </FadeUp>
