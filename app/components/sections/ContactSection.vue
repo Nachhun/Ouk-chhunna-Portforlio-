@@ -1,6 +1,6 @@
 <template>
-  <section id="contact" class="bg-cream border-t border-border py-24 lg:py-36">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+  <section id="contact" class="bg-cream border-t border-border py-16 sm:py-24 lg:py-36">
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
         <!-- Left -->
         <div class="lg:col-span-5">

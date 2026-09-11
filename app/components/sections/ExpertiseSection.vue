@@ -1,6 +1,6 @@
 <template>
-  <section id="skills" class="bg-cream border-t border-border py-24 lg:py-36">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+  <section id="skills" class="bg-cream border-t border-border py-16 sm:py-24 lg:py-36">
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12">
       <FadeUp>
         <SectionLabel number="03" label="Skills & Architecture" />
       </FadeUp>

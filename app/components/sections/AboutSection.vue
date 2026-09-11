@@ -1,7 +1,7 @@
 <template>
-  <section id="about" class="bg-cream border-t border-border py-24 lg:py-36">
+  <section id="about" class="bg-cream border-t border-border py-16 sm:py-24 lg:py-36">
     <div class="max-w-7xl mx-auto px-6 lg:px-12">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-20 items-start">
         <!-- Left: label + portrait -->
         <div class="lg:col-span-4">
           <div class="lg:sticky lg:top-28">
@@ -11,7 +11,7 @@
 
             <FadeUp :delay="1">
               <!-- Profile photo with refined animated spinning arrow frame -->
-              <div class="relative w-full max-w-[320px] mt-6 group select-none">
+              <div class="relative w-full max-w-[280px] sm:max-w-[320px] mx-auto lg:mx-0 mt-6 group select-none">
                 <!-- Subtle ambient depth -->
                 <div class="absolute -inset-0.5 bg-ink/5 rounded-[28px] blur-sm transition-opacity duration-500 -z-10" />
 
@@ -115,7 +115,7 @@
                 </div>
 
                 <!-- Clean, modest Current Position summary -->
-                <div class="mt-6 pt-5 border-t border-border space-y-1.5 max-w-[320px]">
+                <div class="mt-6 pt-5 border-t border-border space-y-1.5 max-w-[280px] sm:max-w-[320px] mx-auto lg:mx-0 text-center lg:text-left">
                   <p class="font-mono text-xs text-ink-muted uppercase tracking-wider">Current Position</p>
                   <p class="font-display font-700 text-sm text-ink leading-snug">
                     Digital Content & Web (Business Systems) Executive

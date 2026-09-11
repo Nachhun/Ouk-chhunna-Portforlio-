@@ -34,55 +34,114 @@
         </li>
       </ul>
 
-      <!-- Mobile burger -->
-      <button
-        id="mobile-menu-btn"
-        class="md:hidden flex flex-col gap-1.5 p-2"
-        :aria-label="mobileOpen ? 'Close menu' : 'Open menu'"
-        @click="mobileOpen = !mobileOpen"
-      >
-        <span
-          class="block w-5 h-px bg-ink transition-all duration-300"
-          :class="mobileOpen ? 'rotate-45 translate-y-2' : ''"
-        />
-        <span
-          class="block w-5 h-px bg-ink transition-all duration-300"
-          :class="mobileOpen ? 'opacity-0' : ''"
-        />
-        <span
-          class="block w-5 h-px bg-ink transition-all duration-300"
-          :class="mobileOpen ? '-rotate-45 -translate-y-2' : ''"
-        />
-      </button>
+      <!-- Mobile actions (Quick Contact + Animated Hamburger) -->
+      <div class="md:hidden flex items-center gap-3">
+        <a
+          href="mailto:oukchhunna@gmail.com"
+          class="inline-flex items-center text-xs font-display font-800 tracking-wider uppercase bg-ink text-white px-3.5 py-1.5 rounded-full"
+        >
+          Contact
+        </a>
+
+        <button
+          id="mobile-menu-btn"
+          class="flex flex-col justify-center items-center w-9 h-9 rounded-full bg-black/5 hover:bg-black/10 transition-colors p-1"
+          :aria-label="mobileOpen ? 'Close menu' : 'Open menu'"
+          @click="mobileOpen = !mobileOpen"
+        >
+          <span
+            class="block w-4.5 h-[1.5px] bg-ink transition-all duration-300 origin-center"
+            :class="mobileOpen ? 'rotate-45 translate-y-[3.5px]' : '-translate-y-1'"
+          />
+          <span
+            class="block w-4.5 h-[1.5px] bg-ink transition-all duration-300"
+            :class="mobileOpen ? 'opacity-0' : ''"
+          />
+          <span
+            class="block w-4.5 h-[1.5px] bg-ink transition-all duration-300 origin-center"
+            :class="mobileOpen ? '-rotate-45 -translate-y-[3.5px]' : 'translate-y-1'"
+          />
+        </button>
+      </div>
     </nav>
 
-    <!-- Mobile dropdown -->
-    <Transition name="mobile-menu">
-      <div
-        v-if="mobileOpen"
-        class="md:hidden bg-cream border-b border-border px-6 pb-6"
-      >
-        <ul class="flex flex-col gap-4 pt-4">
-          <li v-for="link in links" :key="link.href">
-            <a
-              :href="link.href"
-              class="font-display font-700 text-base tracking-[0.08em] uppercase text-ink hover:text-black transition-colors duration-200"
-              @click.prevent="mobileScrollTo(link.href)"
+    <!-- Modern Fullscreen Mobile Navigation Drawer -->
+    <Teleport to="body">
+      <Transition name="mobile-drawer">
+        <div
+          v-if="mobileOpen"
+          class="fixed inset-0 z-[100] md:hidden bg-[#F8F7F4]/98 backdrop-blur-2xl flex flex-col justify-between p-6 overflow-y-auto"
+        >
+          <!-- Drawer Header -->
+          <div class="flex items-center justify-between border-b border-border/80 pb-4">
+            <div>
+              <p class="font-display font-800 text-lg uppercase tracking-wider text-ink">
+                Ouk Chhunna
+              </p>
+              <div class="flex items-center gap-2 mt-0.5">
+                <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                <span class="text-[11px] font-medium text-ink-secondary">Available for hire</span>
+              </div>
+            </div>
+
+            <button
+              class="w-10 h-10 rounded-full bg-black/5 flex items-center justify-center text-ink text-lg font-bold"
+              aria-label="Close menu"
+              @click="mobileOpen = false"
             >
-              {{ link.label }}
-            </a>
-          </li>
-          <li>
-            <a
-              href="mailto:oukchhunna@gmail.com"
-              class="inline-flex bg-ink text-cream font-display font-700 text-sm tracking-[0.08em] uppercase px-6 py-3"
-            >
-              Get in Touch
-            </a>
-          </li>
-        </ul>
-      </div>
-    </Transition>
+              ✕
+            </button>
+          </div>
+
+          <!-- Navigation Links -->
+          <ul class="flex flex-col gap-2 py-6">
+            <li v-for="link in links" :key="link.href">
+              <a
+                :href="link.href"
+                class="flex items-center justify-between p-3 rounded-xl hover:bg-black/5 active:bg-black/10 transition-colors group"
+                @click.prevent="mobileScrollTo(link.href)"
+              >
+                <div class="flex items-center gap-3.5">
+                  <span class="font-mono text-xs font-semibold text-ink-muted group-hover:text-accent-terracotta transition-colors">
+                    {{ link.number }}
+                  </span>
+                  <div>
+                    <p class="font-display font-800 text-xl tracking-tight text-ink group-hover:text-black transition-colors">
+                      {{ link.label }}
+                    </p>
+                    <p class="text-xs text-ink-secondary">
+                      {{ link.desc }}
+                    </p>
+                  </div>
+                </div>
+                <svg class="w-4 h-4 text-ink-muted group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Drawer Quick Actions / Footer -->
+          <div class="pt-4 border-t border-border/80 space-y-3">
+            <p class="text-[11px] font-mono uppercase tracking-widest text-ink-muted">Quick Connect</p>
+            <div class="grid grid-cols-2 gap-2.5">
+              <a
+                href="mailto:oukchhunna@gmail.com"
+                class="flex items-center justify-center gap-2 bg-ink text-white font-display font-700 text-xs uppercase tracking-wider py-3 px-4 rounded-xl shadow-sm"
+              >
+                <span>Email Me</span>
+              </a>
+              <a
+                href="tel:011686915"
+                class="flex items-center justify-center gap-2 bg-white border border-border text-ink font-display font-700 text-xs uppercase tracking-wider py-3 px-4 rounded-xl shadow-xs"
+              >
+                <span>Call Phone</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </Transition>
+    </Teleport>
   </header>
 </template>
 
@@ -92,12 +151,13 @@ const mobileOpen = ref(false)
 const navRef = ref<HTMLElement>()
 
 const links = [
-  { href: '#about', label: 'About' },
-  { href: '#skills', label: 'Skills' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#experience', label: 'Experience' },
-  { href: '#ai', label: 'AI & Data' },
-  { href: '#creative', label: 'Creative' },
+  { href: '#about', label: 'About', number: '01', desc: 'Background & Profile' },
+  { href: '#skills', label: 'Skills', number: '02', desc: 'Core Technologies & Tools' },
+  { href: '#projects', label: 'Projects', number: '03', desc: 'Production Systems & PWAs' },
+  { href: '#experience', label: 'Experience', number: '04', desc: 'Career & Achievements' },
+  { href: '#ai', label: 'AI & Data', number: '05', desc: 'Intelligent Automation' },
+  { href: '#creative', label: 'Creative', number: '06', desc: 'Media & Digital Assets' },
+  { href: '#contact', label: 'Contact', number: '07', desc: 'Get in Touch Directly' },
 ]
 
 const scrollTo = (href: string) => {
@@ -128,13 +188,13 @@ onMounted(() => {
   background-color: #F8F7F4 !important;
 }
 
-.mobile-menu-enter-active,
-.mobile-menu-leave-active {
-  transition: opacity 0.2s ease, transform 0.2s ease;
+.mobile-drawer-enter-active,
+.mobile-drawer-leave-active {
+  transition: opacity 0.25s ease, transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.mobile-menu-enter-from,
-.mobile-menu-leave-to {
+.mobile-drawer-enter-from,
+.mobile-drawer-leave-to {
   opacity: 0;
-  transform: translateY(-8px);
+  transform: translateY(-12px) scale(0.98);
 }
 </style>

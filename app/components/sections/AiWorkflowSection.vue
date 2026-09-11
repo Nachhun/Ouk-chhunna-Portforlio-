@@ -1,6 +1,6 @@
 <template>
-  <section id="ai" class="bg-ink py-24 lg:py-36 overflow-hidden">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+  <section id="ai" class="bg-ink py-16 sm:py-24 lg:py-36 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12">
       <FadeUp>
         <div class="flex items-center gap-3 mb-6">
           <span class="font-body text-xs tracking-[0.18em] uppercase text-white/30">06</span>

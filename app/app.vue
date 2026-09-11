@@ -13,5 +13,6 @@
       <SectionsContactSection />
     </main>
     <LayoutFooter />
+    <LayoutMobileBottomNav />
   </div>
 </template>

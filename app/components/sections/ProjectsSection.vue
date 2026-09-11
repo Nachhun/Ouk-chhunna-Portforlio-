@@ -1,11 +1,11 @@
 <template>
-  <section id="projects" class="bg-cream border-t border-border py-24 lg:py-36">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+  <section id="projects" class="bg-cream border-t border-border py-16 sm:py-24 lg:py-36">
+    <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-12">
       <FadeUp>
         <SectionLabel number="04" label="Selected Work" />
       </FadeUp>
       <FadeUp :delay="1">
-        <h2 class="font-display font-700 text-4xl lg:text-5xl text-ink leading-tight tracking-tight mt-4 mb-20">
+        <h2 class="font-display font-700 text-3xl sm:text-4xl lg:text-5xl text-ink leading-tight tracking-tight mt-4 mb-10 sm:mb-16">
           Selected Projects
         </h2>
       </FadeUp>
@@ -15,7 +15,7 @@
         <div
           v-for="(project, index) in projects"
           :key="project.id"
-          class="border-t border-border py-16 lg:py-24"
+          class="border-t border-border py-10 sm:py-16 lg:py-24"
         >
           <FadeUp :delay="1">
             <div
