@@ -78,6 +78,25 @@
                     </span>
                   </div>
 
+                  <!-- Live Demo CTA Button for Interactive Demo Projects (Prominent placement) -->
+                  <div v-if="project.hasInteractiveDemo" class="mb-8 flex flex-wrap items-center gap-3">
+                    <a
+                      :href="project.demoUrl || 'http://localhost:3001'"
+                      target="_blank"
+                      rel="noopener"
+                      class="inline-flex items-center gap-2.5 bg-ink text-white font-display font-bold text-xs sm:text-sm tracking-[0.08em] uppercase px-6 py-3.5 rounded-full hover:bg-ink/85 active:scale-98 transition-all shadow-md hover:shadow-lg group"
+                    >
+                      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                      <span>Launch Live Demo App</span>
+                      <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                    </a>
+                    <span class="inline-flex items-center gap-1.5 text-xs font-mono text-ink-muted bg-white border border-border px-3 py-2 rounded-full shadow-xs">
+                      ⚡ 100% Synthetic Demo
+                    </span>
+                  </div>
+
                   <!-- Tech stack -->
                   <div class="flex flex-wrap gap-2 mb-8">
                     <span
@@ -109,8 +128,15 @@
                 :class="index % 2 === 1 ? 'lg:order-1' : 'lg:order-2'"
               >
                 <div class="project-image-wrap">
-                  <!-- Mockup placeholder with project-themed UI -->
+                  <!-- Custom Interactive High-Fidelity Demo for Project 01 -->
+                  <DirectSalesDemoMockup
+                    v-if="project.hasInteractiveDemo"
+                    :demo-url="project.demoUrl || 'http://localhost:3001'"
+                  />
+
+                  <!-- Standard Mockup placeholder for other projects -->
                   <div
+                    v-else
                     class="mockup-placeholder relative w-full aspect-[16/10] bg-gray-50 border border-border overflow-hidden"
                     :style="{ background: project.mockupBg }"
                   >
@@ -188,6 +214,8 @@
 </template>
 
 <script setup lang="ts">
+import DirectSalesDemoMockup from '~/components/DirectSalesDemoMockup.vue'
+
 interface Project {
   id: string
   title: string
@@ -202,6 +230,8 @@ interface Project {
   hasMap: boolean
   mockupBg: string
   url?: string
+  hasInteractiveDemo?: boolean
+  demoUrl?: string
 }
 
 const projects: Project[] = [
@@ -225,9 +255,11 @@ const projects: Project[] = [
     tech: ['Nuxt 3', 'Vue.js', 'Laravel REST API', 'MySQL', 'Leaflet GIS', 'OSRM', 'cPanel CI/CD'],
     role: 'Full-Stack Developer / System Architect',
     impact: '1,499 Git production commits; powers daily multi-stop delivery routing & inventory allocation.',
-    confidential: true,
+    confidential: false,
     hasMap: true,
-    mockupBg: '#F1F5F9',
+    mockupBg: '#0b132b',
+    hasInteractiveDemo: true,
+    demoUrl: 'http://localhost:3001',
   },
   {
     id: '02',
