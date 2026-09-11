@@ -81,7 +81,7 @@
                   <!-- Live Demo CTA Button for Interactive Demo Projects (Prominent placement) -->
                   <div v-if="project.hasInteractiveDemo" class="mb-8 flex flex-wrap items-center gap-3">
                     <a
-                      :href="project.demoUrl || 'https://temporary-swift-agate-64pl521.vercel.app'"
+                      :href="project.demoUrl || 'https://afc-direct-sales-demo.vercel.app'"
                       target="_blank"
                       rel="noopener"
                       class="inline-flex items-center gap-2.5 bg-ink text-white font-display font-bold text-xs sm:text-sm tracking-[0.08em] uppercase px-6 py-3.5 rounded-full hover:bg-ink/85 active:scale-98 transition-all shadow-md hover:shadow-lg group"
@@ -273,7 +273,7 @@ const projects: Project[] = [
     hasMap: true,
     mockupBg: '#0b132b',
     hasInteractiveDemo: true,
-    demoUrl: 'https://temporary-swift-agate-64pl521.vercel.app',
+    demoUrl: 'https://afc-direct-sales-demo.vercel.app',
     githubDemoUrl: 'https://github.com/Nachhun/afc-direct-sales-demo',
   },
   {

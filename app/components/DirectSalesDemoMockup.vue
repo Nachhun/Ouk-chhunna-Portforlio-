@@ -16,7 +16,7 @@
             <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
             <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
           </svg>
-          <span class="font-mono text-[10.5px] text-gray-200">demo.afc-directsales.kh<span class="text-white/40">/admin/deliveries/map</span></span>
+          <span class="font-mono text-[10.5px] text-gray-200">afc-direct-sales-demo.vercel.app<span class="text-white/40">/admin/deliveries/map</span></span>
         </div>
         <span class="hidden sm:inline-flex items-center gap-1 text-[9px] font-semibold text-emerald-300 bg-emerald-500/20 px-1.5 py-0.5 rounded">
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -421,7 +421,7 @@ withDefaults(
     demoUrl?: string
   }>(),
   {
-    demoUrl: 'https://temporary-swift-agate-64pl521.vercel.app',
+    demoUrl: 'https://afc-direct-sales-demo.vercel.app',
   }
 )
 
