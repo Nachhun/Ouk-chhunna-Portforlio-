@@ -20,8 +20,25 @@
           <!-- Contact info -->
           <FadeUp :delay="2">
             <div class="mt-10 space-y-4">
+              <!-- Phone -->
               <a
-                href="mailto:oukchhunna@gmail.com"
+                href="tel:0965900986"
+                class="flex items-center gap-4 group"
+              >
+                <div class="w-10 h-10 border border-border flex items-center justify-center shrink-0 group-hover:border-ink group-hover:bg-ink transition-all duration-300">
+                  <svg class="w-4 h-4 text-ink-secondary group-hover:text-cream transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                  </svg>
+                </div>
+                <div>
+                  <p class="font-body text-xs tracking-[0.1em] uppercase text-ink-muted mb-0.5">Phone / Telegram</p>
+                  <p class="font-body text-sm text-ink animated-link font-medium">096 590 0986</p>
+                </div>
+              </a>
+
+              <!-- Email -->
+              <a
+                href="mailto:chhunnaouk168@gmail.com"
                 class="flex items-center gap-4 group"
               >
                 <div class="w-10 h-10 border border-border flex items-center justify-center shrink-0 group-hover:border-ink group-hover:bg-ink transition-all duration-300">
@@ -31,12 +48,13 @@
                 </div>
                 <div>
                   <p class="font-body text-xs tracking-[0.1em] uppercase text-ink-muted mb-0.5">Email</p>
-                  <p class="font-body text-sm text-ink animated-link">oukchhunna@gmail.com</p>
+                  <p class="font-body text-sm text-ink animated-link font-medium">chhunnaouk168@gmail.com</p>
                 </div>
               </a>
 
+              <!-- LinkedIn -->
               <a
-                href="https://linkedin.com/in/oukchhunna"
+                href="https://www.linkedin.com/in/chhunna-ouk-1a195237a?utm_source=share_via&utm_content=profile&utm_medium=member_android"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="flex items-center gap-4 group"
@@ -48,10 +66,11 @@
                 </div>
                 <div>
                   <p class="font-body text-xs tracking-[0.1em] uppercase text-ink-muted mb-0.5">LinkedIn</p>
-                  <p class="font-body text-sm text-ink animated-link">linkedin.com/in/oukchhunna</p>
+                  <p class="font-body text-sm text-ink animated-link font-medium">linkedin.com/in/chhunna-ouk-1a195237a</p>
                 </div>
               </a>
 
+              <!-- GitHub -->
               <a
                 href="https://github.com/oukchhunna"
                 target="_blank"
@@ -65,7 +84,7 @@
                 </div>
                 <div>
                   <p class="font-body text-xs tracking-[0.1em] uppercase text-ink-muted mb-0.5">GitHub</p>
-                  <p class="font-body text-sm text-ink animated-link">github.com/oukchhunna</p>
+                  <p class="font-body text-sm text-ink animated-link font-medium">github.com/oukchhunna</p>
                 </div>
               </a>
             </div>
@@ -184,7 +203,7 @@ const handleSubmit = async () => {
   error.value = false
   try {
     // Open email client as fallback (replace with actual form service like Formspree)
-    const mailtoLink = `mailto:oukchhunna@gmail.com?subject=${encodeURIComponent(form.subject || 'Portfolio Contact')}&body=${encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`)}`
+    const mailtoLink = `mailto:chhunnaouk168@gmail.com?subject=${encodeURIComponent(form.subject || 'Portfolio Contact')}&body=${encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`)}`
     window.location.href = mailtoLink
     submitted.value = true
     form.name = ''

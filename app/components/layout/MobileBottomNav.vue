@@ -34,7 +34,7 @@
 
       <!-- Quick Contact Direct Action -->
       <a
-        href="mailto:oukchhunna@gmail.com"
+        href="mailto:chhunnaouk168@gmail.com"
         class="flex items-center justify-center w-8 h-8 rounded-full bg-white text-ink shadow-sm shrink-0 active:scale-90 transition-transform ml-1"
         aria-label="Email Ouk Chhunna"
       >

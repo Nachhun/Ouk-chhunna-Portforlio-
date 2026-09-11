@@ -22,13 +22,19 @@
           <p class="font-body text-xs tracking-[0.1em] uppercase text-ink-muted mb-1">Connect</p>
           <div class="flex flex-wrap gap-6">
             <a
-              href="mailto:oukchhunna@gmail.com"
+              href="tel:0965900986"
+              class="font-body text-sm text-ink-secondary hover:text-ink animated-link transition-colors"
+            >
+              Phone: 096 590 0986
+            </a>
+            <a
+              href="mailto:chhunnaouk168@gmail.com"
               class="font-body text-sm text-ink-secondary hover:text-ink animated-link transition-colors"
             >
               Email
             </a>
             <a
-              href="https://linkedin.com/in/oukchhunna"
+              href="https://www.linkedin.com/in/chhunna-ouk-1a195237a?utm_source=share_via&utm_content=profile&utm_medium=member_android"
               target="_blank"
               rel="noopener noreferrer"
               class="font-body text-sm text-ink-secondary hover:text-ink animated-link transition-colors"

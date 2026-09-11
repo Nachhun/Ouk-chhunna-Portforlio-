@@ -26,7 +26,7 @@
         </li>
         <li>
           <a
-            href="mailto:oukchhunna@gmail.com"
+            href="mailto:chhunnaouk168@gmail.com"
             class="inline-flex items-center gap-2 bg-ink text-cream font-display font-800 text-[15px] tracking-[0.06em] uppercase px-6 py-2.5 hover:bg-ink/85 transition-colors duration-200 whitespace-nowrap shadow-sm"
           >
             Contact
@@ -37,7 +37,7 @@
       <!-- Mobile actions (Quick Contact + Profile Avatar Menu) -->
       <div class="md:hidden flex items-center gap-2.5">
         <a
-          href="mailto:oukchhunna@gmail.com"
+          href="mailto:chhunnaouk168@gmail.com"
           class="inline-flex items-center text-xs font-display font-800 tracking-wider uppercase bg-ink text-white px-3.5 py-1.5 rounded-full shadow-xs active:scale-95 transition-all"
         >
           Contact
@@ -146,13 +146,13 @@
             <p class="text-[11px] font-mono uppercase tracking-widest text-ink-muted">Quick Connect</p>
             <div class="grid grid-cols-2 gap-2.5">
               <a
-                href="mailto:oukchhunna@gmail.com"
+                href="mailto:chhunnaouk168@gmail.com"
                 class="flex items-center justify-center gap-2 bg-ink text-white font-display font-700 text-xs uppercase tracking-wider py-3 px-4 rounded-xl shadow-sm"
               >
                 <span>Email Me</span>
               </a>
               <a
-                href="tel:011686915"
+                href="tel:0965900986"
                 class="flex items-center justify-center gap-2 bg-white border border-border text-ink font-display font-700 text-xs uppercase tracking-wider py-3 px-4 rounded-xl shadow-xs"
               >
                 <span>Call Phone</span>
