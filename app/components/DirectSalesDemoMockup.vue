@@ -421,7 +421,7 @@ withDefaults(
     demoUrl?: string
   }>(),
   {
-    demoUrl: 'http://localhost:3001',
+    demoUrl: 'https://temporary-swift-agate-64pl521.vercel.app',
   }
 )
 
